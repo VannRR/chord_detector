@@ -1,0 +1,33 @@
+[package]
+name = "chord_detector"
+version = "0.1.0"
+edition = "2021"
+authors = ["VannRR"]
+description = "Stream-based 12-bin chromagram computation and real-time chord detection."
+license = "GPL-3.0"
+repository = "https://github.com/vannrr/chord_detector"
+readme = "README.md"
+keywords = [
+  "audio",
+  "music",
+  "chromagram",
+  "chord-detection",
+  "fft",
+  "signal-processing"
+]
+categories = [
+  "audio",
+  "science",
+  "multimedia"
+]
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE*"]
+
+[dependencies]
+thiserror = "2.0"
+rustfft   = { version = "6.4", default-features = false }
+
+[dev-dependencies]
+lewton = "0.10"
+walkdir = "2.5"
+rayon = "1.10"
+lazy_static = "1.5"
