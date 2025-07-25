@@ -12,7 +12,6 @@ keywords = [
   "music",
   "chromagram",
   "chord-detection",
-  "fft",
   "signal-processing"
 ]
 categories = [
