@@ -15,7 +15,7 @@ keywords = [
   "signal-processing"
 ]
 categories = [
-  "Algorithms",
+  "algorithms",
   "multimedia::audio"
 ]
 include = ["src/**", "Cargo.toml", "README.md", "LICENSE*"]
